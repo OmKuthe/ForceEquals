@@ -1,0 +1,65 @@
+#profile-enhancer-widget {
+    position: fixed;
+    top: 80px;
+    right: 20px;
+    width: 280px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    padding: 12px;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    z-index: 10000;
+  }
+  
+  #pe-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  #toggle-visibility {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .pe-body label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 4px;
+  }
+  
+  .pe-progress-bar {
+    width: 100%;
+    background-color: #eee;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pe-progress {
+    height: 10px;
+    background-color: #4CAF50;
+  }
+  
+  .pe-tag {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .pe-tag.target {
+    background-color: #28a745;
+  }
+  
+  .pe-tag.not-target {
+    background-color: #dc3545;
+  }
+  

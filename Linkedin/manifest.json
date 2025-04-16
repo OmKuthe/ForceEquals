@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Profile Enhancer Widget",
+    "version": "1.0",
+    "description": "Injects a widget into LinkedIn profiles showing company match info",
+    "permissions": ["storage"],
+    "content_scripts": [
+      {
+        "matches": ["*://www.linkedin.com/in/*"],
+        "js": ["content.js"],
+        "css": ["style.css"]
+      }
+    ]
+  }
+  
